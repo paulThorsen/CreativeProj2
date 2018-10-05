@@ -1,38 +1,61 @@
 <!doctype html>
 <html>
-  <head>
-      <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ewert|Rye">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js.js"></script>
-    
+    <style>
+      h1 {
+        font-family: 'Ewert', cursive;
+        font-size: 48px;
+      }
+      body {
+          font-family: 'Rye', cursive;
+      }
+    </style>
   </head>
-  <body>
-      <h2>Chuck Norris Facts</h2>
-<form>
-<button id="foodJoke" type="submit" value="Submit">Food</button>
-</form>
+<body>
+    <div id = "header">
+    <h1>Chuck Norris Facts</h1>
+    <p id="joke"></p>
+    </div>
+    <div class ="buttons" id = "foodjoke">
+        <form id = "food">
+            <button id="foodJoke" type="submit" value="Submit">Food</button>
+        </form>
+    </div>
+    <div class ="buttons" id = "sportjoke">
+        <form id="sport">
+            <button id="sportJoke" type="submit" value="Submit">Sport</button>
+        </form>
+    </div>
+    <div class ="buttons" id = "historyjoke">
+        <form id="history">
+            <button id="historyJoke" type="submit" value="Submit">History</button>
+        </form>
+    </div>
+    <div class ="buttons" id = "musicjoke">
+        <form id="music">
+            <button id="musicJoke" type="submit" value="Submit">Music</button>
+        </form>
+    </div>
+    <div class ="buttons" id = "traveljoke">
+        <form id="travel">
+            <button id="travelJoke" type="submit" value="Submit">Travel</button>
+        </form>
+    </div>
+    <div class ="buttons" id = "devjoke">
+        <formi id="dev">
+            <button id="devJoke" type="submit" value="Submit">Development</button>
+        </form>
+    </div>
 
-<form>
-<button id="sportJoke" type="submit" value="Submit">Sport</button>
-</form>
-
-<form>
-<button id="historyJoke" type="submit" value="Submit">History</button>
-</form>
-
-<form>
-<button id="musicJoke" type="submit" value="Submit">Music</button>
-</form>
-
-<form>
-<button id="travelJoke" type="submit" value="Submit">Travel</button>
-</form>
-
-<form>
-<button id="devJoke" type="submit" value="Submit">Development</button>
-</form>
-
-<p id="joke"></p>
+    
 
 </body>
-  </body>
+</body>
+
 </html>
